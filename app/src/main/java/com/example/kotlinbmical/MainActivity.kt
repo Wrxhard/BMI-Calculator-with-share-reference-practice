@@ -48,8 +48,6 @@ class MainActivity : AppCompatActivity() {
         rescore=findViewById<TextView>(R.id.resScore)
         val overall=findViewById<TextView>(R.id.overall)
         val advise=findViewById<TextView>(R.id.advise)
-        maleButton.setBackgroundTintList(ContextCompat.getColorStateList(this,MBcolor));
-        femaleButton.setBackgroundTintList(ContextCompat.getColorStateList(this,FBcolor));
         maleButton.setOnClickListener {
             selectedGENDER=GENDER.MALE
             if (selectedGENDER==GENDER.MALE)
